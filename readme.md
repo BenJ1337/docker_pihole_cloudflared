@@ -10,3 +10,8 @@
 ```
 docker-compose up -d
 ```
+
+## Releases
+
+- [docker-pi-hole](https://github.com/pi-hole/docker-pi-hole/releases)
+- [cloudflared](https://github.com/cloudflare/cloudflared/releases/tag/2025.7.0)
