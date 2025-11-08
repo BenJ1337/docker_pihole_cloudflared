@@ -5,6 +5,7 @@ services:
     container_name: cldflrd
     command: proxy-dns
     environment:
+      TZ: Europe/Berlin
       TUNNEL_DNS_UPSTREAM: https://9.9.9.9/dns-query,https://149.112.112.112/dns-query
       TUNNEL_DNS_ADDRESS: 0.0.0.0 # Allow request from the pihole container
       TUNNEL_METRICS: 0.0.0.0:80 # Allow requests from other hosts and always use port 80
